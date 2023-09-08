@@ -22,6 +22,7 @@ from .night_driving import NightDrivingDataset
 from .pascal_context import PascalContextDataset, PascalContextDataset59
 from .potsdam import PotsdamDataset
 from .refuge import REFUGEDataset
+from .sport_fields import SportFieldsDataset
 from .stare import STAREDataset
 from .synapse import SynapseDataset
 # yapf: disable
@@ -58,5 +59,6 @@ __all__ = [
     'SynapseDataset', 'REFUGEDataset', 'MapillaryDataset_v1',
     'MapillaryDataset_v2', 'Albu', 'LEVIRCDDataset',
     'LoadMultipleRSImageFromFile', 'LoadSingleRSImageFromFile',
-    'ConcatCDInput', 'BaseCDDataset', 'DSDLSegDataset', 'BDD100KDataset'
+    'ConcatCDInput', 'BaseCDDataset', 'DSDLSegDataset', 'BDD100KDataset',
+    'SportFieldsDataset'
 ]
