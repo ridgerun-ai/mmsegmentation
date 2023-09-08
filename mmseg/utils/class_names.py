@@ -2,6 +2,18 @@
 from mmengine.utils import is_str
 
 
+def sport_fields_classes():
+    """Sport Fields class names for external use."""
+    return [
+        'background', 'field'
+    ]
+
+
+def sport_fields_palette():
+    """Sport fields pallete for external use."""
+    return [[0, 0, 0], [128, 0, 128]]
+
+
 def cityscapes_classes():
     """Cityscapes class names for external use."""
     return [
@@ -456,7 +468,8 @@ dataset_aliases = {
     'lip': ['LIP', 'lip'],
     'mapillary_v1': ['mapillary_v1'],
     'mapillary_v2': ['mapillary_v2'],
-    'bdd100k': ['bdd100k']
+    'bdd100k': ['bdd100k'],
+    'sport_fields': ['sport_fields', 'sportfields', 'sport-fields']
 }
 
 
